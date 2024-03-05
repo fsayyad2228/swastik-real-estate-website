@@ -11,7 +11,8 @@ import TestimonialSection from "./Components/TestimonialSection";
 import ExpertOpenionSection from "./Components/ExpertOpenionSection";
 import HomePage from "./Components/HomePage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import CursorPointer from "./Utils/CursorPointer";
+import CursorPointer from './Utils/CursorPointer'
+import SocialContact from './Partials/NavSection/SocialContact/SocialContact'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <CursorPointer />
       <div>
         <Router>
+          <SocialContact/>
           <Navbar />
           <Routes>
             <Route exact path="/" element={<HomePage />}></Route>
@@ -30,6 +32,7 @@ function App() {
             <Route path="/expert" element={<ExpertOpenionSection />}></Route>
             <Route path="/contact" element={<ContactForm />}></Route>
             <Route path="/footer" element={<Footer />}></Route>
+
           </Routes>
         </Router>
       </div>
