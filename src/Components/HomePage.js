@@ -14,8 +14,8 @@ function HomePage() {
     <>
       <div >
         <HeroSection />
-        <ServiceSection />
         <BodySection />
+        <ServiceSection />
         <ProductionSection />
         <TestimonialSection />
         <ExpertOpenionSection />

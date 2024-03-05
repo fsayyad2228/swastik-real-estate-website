@@ -1,18 +1,13 @@
-import React from 'react'
-import "../../Styles/style.css"
-import { Link, NavLink } from 'react-router-dom';
-import LogoImage from '../../Assets/Images/Final_Plewrm.webp'
-const Navbar = () => {
+import React from 'react';
+
+const Header = () => {
     return (
         <>
-            <div>
-                {/*Navbar Section */}
-
-                <header className='main-header  ' id="main-header-2">
-                {/* <div className=" container"> */}
-                    {/* <div className="row"> */}
+            <header className='main-header sticky-header' id="main-header-2">
+                
+                    <div className="row">
                         <div className="col-12">
-                            <nav className="navbar navbar-expand-lg nav-bg-color py-4 pt-lg-4 ">
+                            <nav className="navbar navbar-expand-lg nav-bg-color py-4 pt-lg-4 sticky-top">
                                 <div className="container">
                                     {/* <div className="container-fluid"> */}
                                     {/* here flude are use all area and only container make maintained sapce around */}
@@ -53,15 +48,11 @@ const Navbar = () => {
                                 </div>
                             </nav>
                         </div>
-                    {/* </div> */}
-                {/* </div> */}
+                </div>
 
             </header>
-                {/*Navbar Section */}
-            </div>
         </>
-
-    )
+    );
 }
 
-export default Navbar
+export default Header;
