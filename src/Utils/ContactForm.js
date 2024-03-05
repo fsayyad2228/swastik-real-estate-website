@@ -8,7 +8,7 @@ const ContactForm = () => {
       <div>
         {/* contact section  */}
         <section
-          className="services-section contact-section bg-color text-white  pt-5 "
+          className="contact-section bg-color text-white  pt-5 "
           id="contact-us"
         >
           <CursorPointer />
