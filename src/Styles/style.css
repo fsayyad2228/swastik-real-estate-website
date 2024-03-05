@@ -224,7 +224,7 @@ a {
 .nav-bg-color {
     background-color: var(--secondary-third-color);
     /* background-color: transparent; */
-  height: 80vh;
+  /* height: 80vh; */
   position: relative;
 }
 
