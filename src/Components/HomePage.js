@@ -10,6 +10,7 @@ import ProductionSection from "../Components/ProductServiceSection";
 import TestimonialSection from "../Components/TestimonialSection";
 import ExpertOpenionSection from "../Components/ExpertOpenionSection";
 import CareerSection from "./CareerSection";
+import FeedbackForm from "./FeedbackSection";
 function HomePage() {
   return (
     <>
@@ -21,6 +22,7 @@ function HomePage() {
         <TestimonialSection />
         <ExpertOpenionSection />
         <CareerSection />
+        <FeedbackForm />
         <ContactForm />
         <Footer />
       </div>

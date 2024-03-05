@@ -9,13 +9,13 @@
 }
 
 :root {
-    --bs-dark-color: #1a1d20;
-    --bs-dark-primary: #1c1c1c;
-    --bs-main-color: #fff;
-    --bs-primary-color: #c6c6c6;
-    --secondary-color: #29a9fd;
-    --secondary-third-color: #38a4ecce;
-    --bs-supportin-color: #c850c0;
+  --bs-dark-color: #1a1d20;
+  --bs-dark-primary: #1c1c1c;
+  --bs-main-color: #fff;
+  --bs-primary-color: #c6c6c6;
+  --secondary-color: #29a9fd;
+  --secondary-third-color: #38a4ecce;
+  --bs-supportin-color: #c850c0;
 }
 
 h1,
@@ -106,26 +106,26 @@ a {
 }
 
 #search-area-4 {
-    transition: all 0.4s;
-    position: absolute;
-    bottom: -25px;
-    width: 100%;
+  transition: all 0.4s;
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
 }
 #search-area-4 .search-area-inner {
-    padding: 30px 30px 10px;
-    box-shadow: 0 0 8px 0 rgba(0,0,0,.12);
-    background: #fff;
+  padding: 30px 30px 10px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
 }
 
 .search-area .search-fields {
-    min-height: 45px;
-    padding: 0;
-    background: #fff;
-    border-radius: 3px;
-    width: 100% !important;
-    cursor: pointer;
-    border: 1px solid #dbdbdb;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
+  min-height: 45px;
+  padding: 0;
+  background: #fff;
+  border-radius: 3px;
+  width: 100% !important;
+  cursor: pointer;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
 }
 /* image section  */
 .image-section {
@@ -142,7 +142,6 @@ a {
   border-radius: 2rem;
 }
 
-
 /* .hero-section .container {
     display: grid;
     place-content: center;
@@ -150,39 +149,47 @@ a {
 } */
 /* Navibar sticky code */
 .navbar {
-    padding: 15px 0;
+  padding: 15px 0;
 }
 .sticky-header {
-    position: fixed;
-    background: transparent;
-    top: 40px;
-    z-index: 999;
-    width: 100%;
+  position: fixed;
+  background: transparent;
+  top: 40px;
+  z-index: 999;
+  width: 100%;
 }
 .header-shrink {
-    background: #fff;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    transition: 0.5s;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
-    top: 0px !important;
+  background: #fff;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  top: 0px !important;
 }
 
 .carousel-caption-left-top {
-    position: absolute;
-    top: 15rem;
-    left: 10rem;
-    width: 50rem;
-    height: 15rem;
-    transform: translate(10px, 10px); /* Add some padding to adjust the position */
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background color to make the caption more readable */
-    padding: 10px; /* Optional: Add padding */
-    text-align: start;
+  position: absolute;
+  top: 15rem;
+  left: 10rem;
+  width: 50rem;
+  height: 15rem;
+  transform: translate(
+    10px,
+    10px
+  ); /* Add some padding to adjust the position */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Optional: Add a background color to make the caption more readable */
+  padding: 10px; /* Optional: Add padding */
+  text-align: start;
 }
-.carousel-double-caption{
-    display: flex;
-    justify-content: space-between;
+.carousel-double-caption {
+  display: flex;
+  justify-content: space-between;
 }
 .hero-section .container {
   display: grid;
@@ -207,9 +214,9 @@ a {
   overflow: hidden;
 }
 
-.more-information-section{
-    padding: 6rem 0;
-    overflow: hidden;
+.more-information-section {
+  padding: 6rem 0;
+  overflow: hidden;
 }
 
 .more-info-section .container {
@@ -219,15 +226,15 @@ a {
 }
 
 .bg-main {
-    height: 100vh; 
-    position: relative;
+  height: 100vh;
+  position: relative;
 }
-.bg-color{
-    background-color:var(--bs-dark-color) ;
+.bg-color {
+  background-color: var(--bs-dark-color);
 }
 .nav-bg-color {
-    background-color: var(--secondary-third-color);
-    /* background-color: transparent; */
+  background-color: var(--secondary-third-color);
+  /* background-color: transparent; */
   /* height: 80vh; */
   position: relative;
 }
@@ -262,10 +269,10 @@ a {
 /* Production /commpn section / Center Heading sections*/
 
 .services-section {
-    /* padding: 6rem 0 3rem 0 !important; */
-    padding: 0 0 9rem 0;
-    /* background-image: linear-gradient(rgba(22, 22, 22, 0.9), rgba(22, 22, 22, 0.9)) */
-    background-color:rgba(128, 128, 128, 0.37);
+  /* padding: 6rem 0 3rem 0 !important; */
+  padding: 0 0 9rem 0;
+  /* background-image: linear-gradient(rgba(22, 22, 22, 0.9), rgba(22, 22, 22, 0.9)) */
+  background-color: rgba(128, 128, 128, 0.37);
   /* padding: 6rem 0 3rem 0 !important; */
   padding: 0 0 9rem 0;
 }
@@ -363,6 +370,10 @@ a {
 /* Career form section */
 .career-section {
   display: flex;
+  margin-top: 80px;
+  margin-bottom: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .career-form-section {
   width: 70%;
@@ -391,7 +402,7 @@ a {
 .send-btn {
   text-align: center;
   margin-bottom: 10px;
-  margin-top: 5px;
+  /* margin-top: 5px; */
 }
 
 .send-btn button {
@@ -416,7 +427,22 @@ a {
 .contact-info .img-fluid {
   /* height: auto;
   max-width: 100%; */
-  width: 60%;
+  width: 75%;
+}
+
+/* Feedback form section */
+.post-btn {
+  text-align: center;
+  margin-bottom: 10px;
+  /* margin-top: 5px; */
+}
+.post-btn button {
+  padding: 10px 20px;
+  background-color: #ef9908;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 /* media query section  */
@@ -441,11 +467,11 @@ a {
     justify-content: center;
   }
 
-    .navbar-toggler-icon {
-        color: var(--bs-main-color);
-        background-color: var(--bs-main-color);
-        /* background-color: var(--secondary-color); */
-    }
+  .navbar-toggler-icon {
+    color: var(--bs-main-color);
+    background-color: var(--bs-main-color);
+    /* background-color: var(--secondary-color); */
+  }
   .navbar-toggler-icon {
     color: var(--bs-main-color);
     background-color: var(--bs-main-color);
@@ -476,7 +502,9 @@ a {
   .contact-info .img-fluid {
     /* height: auto;
     max-width: 100%; */
-    width: 50%;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
