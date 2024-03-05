@@ -71,15 +71,18 @@ a {
     transition: 200ms ease-in;
   }
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
   /* margin-right: -15px;
   margin-left: -15px; */
 }
+
 .maharera-img {
   margin-top: 10px;
 }
+
 .maharera-text {
   margin-top: 4px;
   margin-left: 16px;
@@ -111,6 +114,7 @@ a {
   bottom: -25px;
   width: 100%;
 }
+
 #search-area-4 .search-area-inner {
   padding: 30px 30px 10px;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
@@ -127,6 +131,7 @@ a {
   border: 1px solid #dbdbdb;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
 }
+
 /* image section  */
 .image-section {
   /* max-width: 100%;
@@ -151,6 +156,7 @@ a {
 .navbar {
   padding: 15px 0;
 }
+
 .sticky-header {
   position: fixed;
   background: transparent;
@@ -158,6 +164,7 @@ a {
   z-index: 999;
   width: 100%;
 }
+
 .header-shrink {
   background: #fff;
   -webkit-transition: 0.5s;
@@ -168,29 +175,38 @@ a {
   top: 0px !important;
 }
 
-.carousel-caption-left-top {
+.carosuel-image {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-caption-text-content {
   position: absolute;
-  top: 15rem;
-  left: 10rem;
-  width: 50rem;
+  top: 25%;
+  /* left: 5rem; */
+  width: 40rem;
   height: 15rem;
-  transform: translate(
-    10px,
-    10px
-  ); /* Add some padding to adjust the position */
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); /* Optional: Add a background color to make the caption more readable */
-  padding: 10px; /* Optional: Add padding */
+  transform: translate(10px,
+      10px);
+  /* Add some padding to adjust the position */
+  background-color: rgba(0,
+      0,
+      0,
+      0.5);
+  /* Optional: Add a background color to make the caption more readable */
+  padding: 10px;
+  /* Optional: Add padding */
   text-align: start;
 }
+
 .carousel-double-caption {
   display: flex;
   justify-content: space-between;
 }
+
 .hero-section .container {
   display: grid;
   place-content: center;
@@ -201,10 +217,8 @@ a {
 .more-info-section {
   /* height: 80vh; */
   /* position: relative; */
-  background-image: linear-gradient(
-      rgba(22, 22, 22, 0.9),
-      rgba(22, 22, 22, 0.9)
-    ),
+  background-image: linear-gradient(rgba(22, 22, 22, 0.9),
+      rgba(22, 22, 22, 0.9)),
     url("https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg?auto=compress&cs=tinysrgb&w=600");
   background-size: cover;
   background-position: center;
@@ -229,9 +243,11 @@ a {
   height: 100vh;
   position: relative;
 }
+
 .bg-color {
   background-color: var(--bs-dark-color);
 }
+
 .nav-bg-color {
   background-color: var(--secondary-third-color);
   /* background-color: transparent; */
@@ -342,11 +358,13 @@ a {
   height: 174px;
   /* box-shadow: 2px 2px 3px #5a5a5a; */
 }
+
 .media-services-info i {
   color: #0056b3;
   font-size: 40px;
   width: 58px;
 }
+
 .media-body {
   flex: 1;
 }
@@ -357,6 +375,7 @@ a {
   line-height: 22px;
   margin: 8px 0 10px;
 }
+
 /* We Belive Section  end*/
 /* contact section design and shape devider */
 .contact-section {
@@ -399,6 +418,7 @@ a {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 .career-form-section {
   width: 70%;
   margin-left: 20px;
@@ -450,6 +470,7 @@ a {
   align-items: center;
   /* margin-top: 20px; */
 }
+
 .contact-info .img-fluid {
   /* height: auto;
   max-width: 100%; */
@@ -462,6 +483,7 @@ a {
   margin-bottom: 10px;
   /* margin-top: 5px; */
 }
+
 .post-btn button {
   padding: 10px 20px;
   background-color: #ef9908;
@@ -480,6 +502,7 @@ a {
     width: 20rem;
     border-radius: 1rem;
   }
+
   .image-flude {
     width: 20rem;
     border-radius: 1rem;
@@ -490,6 +513,7 @@ a {
   .navbar-toggler {
     border-color: var(--bs-main-color);
   }
+
   .footer-res {
     display: flex;
     justify-content: center;
@@ -500,6 +524,7 @@ a {
     background-color: var(--bs-main-color);
     /* background-color: var(--secondary-color); */
   }
+
   .navbar-toggler-icon {
     color: var(--bs-main-color);
     background-color: var(--bs-main-color);
@@ -524,9 +549,11 @@ a {
   .career-section {
     display: flow-root;
   }
+
   .career-form-section {
     width: 50%;
   }
+
   .contact-info .img-fluid {
     /* height: auto;
     max-width: 100%; */
@@ -534,21 +561,33 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .carousel-caption-text-content {
+    padding: 25px 20px;
+    position: absolute;
+    top: 20%;
+    left: 2rem;
+    width: 20rem;
+    height: 15rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .maharera-img {
     margin-left: 5px;
   }
+
   .maharera-text {
     margin-left: 5px;
   }
 }
+
 @media screen and (max-width: 350px) {
   .maharera-img {
     margin-left: 45px;
     margin-top: 15px;
   }
+
   .maharera-text {
     margin-left: 10px;
   }
@@ -559,6 +598,7 @@ a {
     display: flex;
     justify-content: center;
   }
+
   .capcha-res {
     width: 200px;
     height: 50px;
