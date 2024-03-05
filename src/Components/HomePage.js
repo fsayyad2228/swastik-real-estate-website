@@ -6,9 +6,10 @@ import ContactForm from "../Utils/ContactForm";
 import HeroSection from "../Components/HeroSection";
 import ServiceSection from "../Components/AboutSection";
 import BodySection from "../Components/BodySection";
-import ProductionSection from "../Components/ProductServiceSection";
+// import ProductionSection from "../Components/ProductServiceSection";
+import WeBeliveSection from "./WeBeliveSection";
 import TestimonialSection from "../Components/TestimonialSection";
-import ExpertOpenionSection from "../Components/ExpertOpenionSection";
+// import ExpertOpenionSection from "../Components/ExpertOpenionSection";
 import CareerSection from "./CareerSection";
 function HomePage() {
   return (
@@ -17,9 +18,10 @@ function HomePage() {
         <HeroSection />
         <BodySection />
         <ServiceSection />
-        <ProductionSection />
+        <WeBeliveSection/>
+        {/* <ProductionSection /> */}
         <TestimonialSection />
-        <ExpertOpenionSection />
+        {/* <ExpertOpenionSection /> */}
         <CareerSection />
         <ContactForm />
         <Footer />

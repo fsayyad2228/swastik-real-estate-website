@@ -10,8 +10,8 @@ const TestimonialSection = () => {
                 {/* testimonial section   */}
                 <section className="services-section mb-5 pt-5 nav-bg-color">
                     <div className="container text-center common-title fw-bold">
-                        <h2 className="common-heading text-capitalize text-white">The Client Suggetions</h2>
-                        <hr className="w-25 mx-auto text-white" />
+                        <h2 className="common-heading text-capitalize text-black">Our Testimonial</h2>
+                        <hr className="w-25 mx-auto text-black" />
                     </div>
                     <div id="carouselExampleIndicators" className="carousel slide">
                         <div className="carousel-indicators">
