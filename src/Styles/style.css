@@ -179,6 +179,7 @@ a {
 .carousel-double-caption{
     display: flex;
     justify-content: space-between;
+}
 .hero-section .container {
   display: grid;
   place-content: center;
