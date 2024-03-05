@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import {
-  Box,
+  FooterBox,
   Container,
   Row,
   Column,
@@ -24,12 +24,11 @@ const Footer = () => {
 
   return (
     <>
-      <Box>
+      <FooterBox class="footer-res">
         <Container>
           <Row className="cen-align">
             <Column>
               <Heading>Usefull Links</Heading>
-
               <FooterLink href="#" class="footerLinkFont">
                 <i class="fa fa-angle-right" aria-hidden="true"></i> Home
               </FooterLink>
@@ -166,10 +165,7 @@ const Footer = () => {
                     class="maharera-img"
                   />
                 </div>
-                <div
-                  class="col-md-9 col-sm-12"
-                  style={{ margin: "4px 0 0 16px" }}
-                >
+                <div class="col-md-9 col-sm-12 maharera-text">
                   <p class="footerLinkFont" style={{ margin: "10px 0 0 10px" }}>
                     <strong> MahaRERA No.:</strong> <br />
                     A52100000099
@@ -187,7 +183,7 @@ const Footer = () => {
             </CopyRLink>
           </CopyRt>
         </Container>
-      </Box>
+      </FooterBox>
       {/* </section> */}
       {/*Footer Section */}
     </>
