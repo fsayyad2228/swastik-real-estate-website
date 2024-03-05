@@ -12,26 +12,28 @@ import ExpertOpenionSection from './Components/ExpertOpenionSection'
 import HomePage from './Components/HomePage'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CursorPointer from './Utils/CursorPointer'
+import SocialContact from './Partials/NavSection/SocialContact/SocialContact'
 function App() {
   return (
     <>
-    <CursorPointer/>
+      <CursorPointer />
       <div >
         <Router>
-        <Navbar />
-        <Routes>
-          <Route exact path="/" element={<HomePage />}></Route>
-          <Route exact path="/hero" element={<HeroSection />}></Route>
-          <Route path="/service" element={<ServiceSection />}></Route>
-          <Route path="/body" element={<BodySection />}></Route>
-          <Route path="/production" element={<ProductionSection />}></Route>
-          <Route path="/testimonial" element={<TestimonialSection />}></Route>
-          <Route path="/expert" element={<ExpertOpenionSection />}></Route>
-          <Route path="/contact" element={<ContactForm />}></Route>
-          <Route path="/footer" element={<Footer />}></Route>
+          <SocialContact />
+          <Navbar />
+          <Routes>
+            <Route exact path="/" element={<HomePage />}></Route>
+            <Route exact path="/hero" element={<HeroSection />}></Route>
+            <Route path="/service" element={<ServiceSection />}></Route>
+            <Route path="/body" element={<BodySection />}></Route>
+            <Route path="/production" element={<ProductionSection />}></Route>
+            <Route path="/testimonial" element={<TestimonialSection />}></Route>
+            <Route path="/expert" element={<ExpertOpenionSection />}></Route>
+            <Route path="/contact" element={<ContactForm />}></Route>
+            <Route path="/footer" element={<Footer />}></Route>
 
-        </Routes>
-      </Router>
+          </Routes>
+        </Router>
       </div>
     </>
   );
