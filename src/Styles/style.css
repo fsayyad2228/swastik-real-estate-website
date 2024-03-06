@@ -22,8 +22,8 @@
   --secondary-color: #29a9fd;
   --secondary-third-color: #38a4ecce;
   --bs-supportin-color: #c850c0;
-  --bs-logo-primary-color:#CD9D41;
-  --bs-logo-secondary-color:#A27841;
+  --bs-logo-primary-color: #cd9d41;
+  --bs-logo-secondary-color: #a27841;
 }
 
 h1,
@@ -267,14 +267,12 @@ a {
   position: relative;
 }
 
-
-
 .nav-link {
-  color: var(--bs-logo-secondary-color);
+  color: var(--bs-logo-secondary-color) !important;
 }
 
 .nav-link:hover {
-  color: var(--bs-logo-primary-color) 
+  color: var(--bs-logo-primary-color);
 }
 
 .text-light-grey {
@@ -320,7 +318,7 @@ a {
 }
 
 /* properties section css start */
-.properties-section{
+.properties-section {
   padding: 0 0 7rem 0;
 }
 
@@ -334,8 +332,6 @@ a {
   /* padding: 6rem 0 3rem 0 !important; */
   padding: 0 0 2rem 0;
 }
-
-
 
 /* carousel Section  */
 
@@ -463,8 +459,8 @@ a {
   border-radius: 4px;
 }
 /* button section start */
-.btn-primary{
-  background:var(--bs-logo-primary-color);
+.btn-primary {
+  background: var(--bs-logo-primary-color);
   border: none;
 }
 .send-btn {
@@ -562,7 +558,6 @@ a {
 
   section .common-heading {
     font-size: 2rem;
-   
   }
 
   section .para-with {
