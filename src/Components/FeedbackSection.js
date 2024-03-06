@@ -129,15 +129,16 @@ const FeedbackForm = () => {
                       </div>{" "}
                     </div>
 
+                   
                     <div className="col-md-12">
-                      <div className="post-btn">
+                      <div className="send-btn">
                         <br />
                         <button
                           type="submit"
-                          className="btn btn-color btn-md"
+                          className="btn btn-primary btn-md"
                           name="submit"
                         >
-                          Send
+                          Submit
                         </button>
                       </div>
                     </div>

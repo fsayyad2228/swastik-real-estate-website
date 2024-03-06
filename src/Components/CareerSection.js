@@ -211,7 +211,7 @@ const CareerSection = () => {
 
                         <button
                           type="submit"
-                          className="btn btn-color btn-md"
+                          className="btn btn-primary btn-md"
                           name="submit"
                         >
                           Submit

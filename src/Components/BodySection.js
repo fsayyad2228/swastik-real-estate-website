@@ -22,7 +22,7 @@ const BodySection = () => {
                                     Reaholic Mediators is one of the best name in business of real estates. We provide a beautiful homes to our customers according to their expectations. We believe in quality and trust.We mainly focusing on trust, quality,innovative designs,budgets and on time delivery.Our vision is to achieve international standards in all businesses.Our mission is to become a most reputed company in real estate.
                                     </p>
                                 <div className="text-center w-100 text-md-start">
-                                    <button type="button" className="btn btn-secondary px-4 py-2"
+                                    <button type="button" className="btn btn-primary px-4 py-2"
                                         data-bs-toggle="tooltip" data-bs-placement="top"
                                         data-bs-custom-classname="custom-tooltip"
                                         data-bs-title="This top tooltip is themed via CSS variables.">
