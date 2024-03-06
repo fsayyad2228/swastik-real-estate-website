@@ -1,7 +1,7 @@
 import React from "react";
 import "../../Styles/style.css";
 import { Link, NavLink } from "react-router-dom";
-import Swastikprop from "../../Assets/Images/Swastikprop.png"
+import Swastikprop from "../../Assets/Images/Swastikprop.png";
 const Navbar = () => {
   return (
     <>
@@ -14,7 +14,12 @@ const Navbar = () => {
                 {/* <div className="container-fluid"> */}
                 {/* here flude are use all area and only container make maintained sapce around */}
                 <Link className="navbar-brand" to="">
-                  <img src={Swastikprop} alt='linking' className='company-logo' autoPlay />
+                  <img
+                    src={Swastikprop}
+                    alt="linking"
+                    className="company-logo"
+                    autoPlay
+                  />
                 </Link>
                 {/* hamburger */}
                 <button
@@ -40,16 +45,13 @@ const Navbar = () => {
                       <Link
                         className="nav-link active text-white text-capitalize"
                         aria-current="page"
-                        to="/home"
+                        to="/"
                       >
                         home
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link
-                        className="nav-link text-capitalize"
-                        to="#online-section"
-                      >
+                      <Link className="nav-link text-capitalize" to="/aboutus">
                         about us
                       </Link>
                     </li>
@@ -81,7 +83,6 @@ const Navbar = () => {
               </div>
             </nav>
           </div>
-
         </header>
         {/*Navbar Section */}
       </div>
