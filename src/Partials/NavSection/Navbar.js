@@ -16,7 +16,7 @@ const Navbar = () => {
               <div className="container">
                 {/* <div className="container-fluid"> */}
                 {/* here flude are use all area and only container make maintained sapce around */}
-                <Link className="navbar-brand text-white" to="">
+                <Link className="navbar-brand text-white" to="/">
                   PLEWRM
                 </Link>
                 {/* <img src={LogoImage} alt='linking' className='img-flude' width="160px" autoPlay /> */}
@@ -43,16 +43,13 @@ const Navbar = () => {
                       <Link
                         className="nav-link active text-white text-capitalize"
                         aria-current="page"
-                        to="/home"
+                        to="/"
                       >
                         home
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link
-                        className="nav-link text-capitalize"
-                        to="#online-section"
-                      >
+                      <Link className="nav-link text-capitalize" to="/aboutus">
                         about us
                       </Link>
                       {/* <NavLink

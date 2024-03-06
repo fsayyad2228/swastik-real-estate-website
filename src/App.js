@@ -15,6 +15,7 @@ import CursorPointer from "./Utils/CursorPointer";
 import SocialContact from "./Partials/NavSection/SocialContact/SocialContact";
 import FeedbackForm from "./Components/FeedbackSection";
 import CareerSection from "./Components/CareerSection";
+import AboutUs from "./Components/AboutUs";
 
 function App() {
   return (
@@ -25,13 +26,14 @@ function App() {
           <SocialContact />
           <Navbar />
           <Routes>
-            <Route exact path="/home" element={<HomePage />}></Route>
+            <Route exact path="/" element={<HomePage />}></Route>
             <Route exact path="/hero" element={<HeroSection />}></Route>
             <Route path="/service" element={<ServiceSection />}></Route>
             <Route path="/body" element={<BodySection />}></Route>
             {/* <Route path="/production" element={<ProductionSection />}></Route> */}
             <Route path="/testimonial" element={<TestimonialSection />}></Route>
             {/* <Route path="/expert" element={<ExpertOpenionSection />}></Route> */}
+            <Route path="/aboutus" element={<AboutUs />}></Route>
             <Route path="/contact" element={<ContactForm />}></Route>
             <Route path="/feedback" element={<FeedbackForm />}></Route>
             <Route path="/career" element={<CareerSection />}></Route>
