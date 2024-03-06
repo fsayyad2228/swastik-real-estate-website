@@ -1,26 +1,27 @@
 import React from "react";
 import "../../Styles/style.css";
 import { Link, NavLink } from "react-router-dom";
-import LogoImage from "../../Assets/Images/Final_Plewrm.webp";
+import Swastikprop from "../../Assets/Images/Swastikprop.png";
 const Navbar = () => {
   return (
     <>
       <div>
         {/*Navbar Section */}
-
-        <header className="main-header  " id="main-header-2">
-          {/* <div className=" container"> */}
-          {/* <div className="row"> */}
+        <header className="main-header" id="main-header-2">
           <div className="col-12">
-            <nav className="navbar navbar-expand-lg nav-bg-color py-4 pt-lg-4 ">
+            <nav className="navbar navbar-expand-lg nav-bg-color py-1 pt-lg-1 ">
               <div className="container">
                 {/* <div className="container-fluid"> */}
                 {/* here flude are use all area and only container make maintained sapce around */}
-                <Link className="navbar-brand text-white" to="/">
-                  PLEWRM
+                <Link className="navbar-brand" to="">
+                  <img
+                    src={Swastikprop}
+                    alt="linking"
+                    className="company-logo"
+                    autoPlay
+                  />
                 </Link>
-                {/* <img src={LogoImage} alt='linking' className='img-flude' width="160px" autoPlay /> */}
-
+                {/* hamburger */}
                 <button
                   className="navbar-toggler"
                   type="button"
@@ -32,6 +33,7 @@ const Navbar = () => {
                 >
                   <span className="navbar-toggler-icon"></span>
                 </button>
+                {/* hamburger */}
                 <div
                   className="collapse navbar-collapse"
                   id="navbarSupportedContent"
@@ -52,17 +54,11 @@ const Navbar = () => {
                       <Link className="nav-link text-capitalize" to="/aboutus">
                         about us
                       </Link>
-                      {/* <NavLink
-                                        // className="nav-link"
-                                        className="nav-link text-capitalize"
-                                        to="/service">
-                                        Services
-                                    </NavLink> */}
                     </li>
                     <li className="nav-item">
                       <Link
                         className="nav-link text-capitalize"
-                        to="#about-services"
+                        to="/properties"
                       >
                         properties{" "}
                       </Link>
@@ -87,8 +83,6 @@ const Navbar = () => {
               </div>
             </nav>
           </div>
-          {/* </div> */}
-          {/* </div> */}
         </header>
         {/*Navbar Section */}
       </div>

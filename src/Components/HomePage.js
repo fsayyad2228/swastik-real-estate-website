@@ -20,11 +20,11 @@ function HomePage() {
         <BodySection />
         <ServiceSection />
         <WeBeliveSection />
-        {/* <ProductionSection /> */}
         <TestimonialSection />
+        {/* <ProductionSection /> */}
         {/* <ExpertOpenionSection /> */}
-        {/* <CareerSection />
-        <FeedbackForm />*/}
+        {/* <CareerSection /> */}
+        {/* <FeedbackForm /> */}
         {/* <ContactForm /> */}
         {/* <Footer /> */}
       </div>

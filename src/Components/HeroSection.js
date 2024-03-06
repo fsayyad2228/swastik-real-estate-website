@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-// import ExampleCarouselImage from 'components/ExampleCarouselImage';
-import homeImage from '../Assets/Images/pi1.gif'
 import testImageF from '../Assets/Images/rsf.jpg'
 import testImageS from '../Assets/Images/rs2.jpg'
 import testImageT from '../Assets/Images/rs3.jpg'
@@ -74,7 +72,7 @@ const HeroSection = () => {
                             </Carousel.Item>
                         </Carousel>
                     </div>
-                    <div className='search-area sa-show-2' id="search-area-4">
+                    {/* <div className='search-area sa-show-2' id="search-area-4">
                         <div className="container">
                             <div className="search-area-inner">
                                 <div className="search-contents">
@@ -134,7 +132,7 @@ const HeroSection = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </section>
                 {/* Hero Section */}
             </div>
