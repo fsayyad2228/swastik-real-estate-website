@@ -22,6 +22,8 @@
   --secondary-color: #29a9fd;
   --secondary-third-color: #38a4ecce;
   --bs-supportin-color: #c850c0;
+  --bs-logo-primary-color:#CD9D41;
+  --bs-logo-secondary-color:#A27841;
 }
 
 h1,
@@ -153,16 +155,6 @@ a {
   border-radius: 2rem;
 }
 
-/* .hero-section .container {
-    display: grid;
-    place-content: center;
-    height: inherit;
-} */
-/* Navibar sticky code */
-.navbar {
-  padding: 15px 0;
-}
-
 .sticky-header {
   position: fixed;
   background: transparent;
@@ -251,17 +243,47 @@ a {
 .bg-color {
   background-color: var(--bs-dark-color);
 }
+/* Navibar sticky code  and navbar section*/
+/* color:#CD9D41; */
+/* color:#A27841; */
+.company-logo {
+  /* position: fixed; */
+  left: 0;
+  width: 150px;
+  /* top: 14px; */
+  object-fit: contain;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.navbar {
+  padding: 15px 0;
+}
 
 .nav-bg-color {
-  background-color: var(--secondary-third-color);
+  /* background-color: var(--secondary-third-color); */
   /* background-color: transparent; */
   /* height: 80vh; */
+  background-color: black;
   position: relative;
 }
 
+
+
+.nav-link {
+  color: var(--bs-logo-secondary-color);
+}
+
+.nav-link:hover {
+  color: var(--bs-logo-primary-color) 
+}
+
+.text-light-grey {
+  color: var(--bs-primary-color);
+}
 .bg-color {
   background-color: var(--bs-dark-color);
 }
+/* navigatin section end  */
 
 /* waves screen spliting section  */
 .custom-shape-divider-bottom-1689170019 {
@@ -289,13 +311,20 @@ a {
 /* Production /commpn section / Center Heading sections*/
 
 .services-section {
-  /* padding: 6rem 0 3rem 0 !important; */
-  padding: 0 0 9rem 0;
+  padding: 0 0 7rem 0;
+  background: var(--bs-logo-primary-color);
+  /* background-color: rgba(128, 128, 128, 0.37); */
   /* background-image: linear-gradient(rgba(22, 22, 22, 0.9), rgba(22, 22, 22, 0.9)) */
-  background-color: rgba(128, 128, 128, 0.37);
   /* padding: 6rem 0 3rem 0 !important; */
-  padding: 0 0 9rem 0;
+  /* padding: 6rem 0 3rem 0 !important; */
 }
+
+/* properties section css start */
+.properties-section{
+  padding: 0 0 7rem 0;
+}
+
+/* properties css section end */
 
 .common-section {
   padding: 6rem 0 6rem 0 !important;
@@ -306,20 +335,7 @@ a {
   padding: 0 0 2rem 0;
 }
 
-/* navigatin section  */
 
-.nav-link {
-  color: var(--bs-main-color);
-}
-
-.nav-link:hover {
-  /* color: var(--secondary-color) !important; */
-  color: #2cd4ef;
-}
-
-.text-light-grey {
-  color: var(--bs-primary-color);
-}
 
 /* carousel Section  */
 
@@ -446,7 +462,11 @@ a {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-
+/* button section start */
+.btn-primary{
+  background:var(--bs-logo-primary-color);
+  border: none;
+}
 .send-btn {
   text-align: center;
   margin-bottom: 10px;
@@ -455,7 +475,7 @@ a {
 
 .send-btn button {
   padding: 10px 20px;
-  background-color: #007bff;
+  /* background-color: #007bff; */
   color: #fff;
   display: flex;
   align-items: start;
@@ -499,6 +519,8 @@ a {
   cursor: pointer;
 }
 
+/* button section end */
+
 /* media query section  */
 
 @media screen and (max-width: 1200px) {
@@ -540,6 +562,7 @@ a {
 
   section .common-heading {
     font-size: 2rem;
+   
   }
 
   section .para-with {

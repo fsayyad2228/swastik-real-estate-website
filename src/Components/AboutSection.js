@@ -1,9 +1,5 @@
 import React from 'react'
 import "../Styles/style.css"
-import socialImageF from '../Assets/Images/si1.gif'
-import socialIageS from '../Assets/Images/si2.gif'
-import socialIageT from '../Assets/Images/si3.gif'
-import ProfilePic from '../Assets/Images/Profile_pic1.png'
 import testImageF from '../Assets/Images/rsf.jpg'
 import testImageS from '../Assets/Images/rs2.jpg'
 import testImageT from '../Assets/Images/rs3.jpg'
@@ -31,7 +27,7 @@ const ServiceSection = () => {
 
                                     <div className="d-flex justify-content-center align-items-center">
                                         <a href='#services'>
-                                            <FontAwesomeIcon icon={faArrowAltCircleRight} />
+                                        <FontAwesomeIcon icon={faArrowAltCircleRight} style={{color: "#111",}} />
                                         </a>
                                     </div>
                                 </div>
@@ -43,7 +39,7 @@ const ServiceSection = () => {
                                     <p className='mb-5 text-start'>As Boyd also describes, when Facebook initially launched in 2004, it solely targeted college students and access was intentionally limited.</p>
                                     <div className="d-flex justify-content-center align-items-center">
                                         <a href='#services'>
-                                            <FontAwesomeIcon icon={faArrowAltCircleRight} />
+                                        <FontAwesomeIcon icon={faArrowAltCircleRight} style={{color: "#111",}} />
                                         </a>
                                     </div>
                                 </div>
@@ -56,7 +52,7 @@ const ServiceSection = () => {
                                     <p className='mb-5 text-start'>Social media are interactive technologies that facilitate the creation and sharing of information, ideas, interests, and other forms of expression through virtual communities and networks.</p>
                                     <div className="d-flex justify-content-center align-items-center">
                                         <a href='#services'>
-                                            <FontAwesomeIcon icon={faArrowAltCircleRight} />
+                                        <FontAwesomeIcon icon={faArrowAltCircleRight} style={{color: "#111",}} />
                                         </a>
                                     </div>
                                 </div>
