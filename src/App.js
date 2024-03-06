@@ -11,8 +11,10 @@ import TestimonialSection from "./Components/TestimonialSection";
 import ExpertOpenionSection from "./Components/ExpertOpenionSection";
 import HomePage from "./Components/HomePage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import CursorPointer from './Utils/CursorPointer'
-import SocialContact from './Partials/NavSection/SocialContact/SocialContact'
+import CursorPointer from "./Utils/CursorPointer";
+import SocialContact from "./Partials/NavSection/SocialContact/SocialContact";
+import FeedbackForm from "./Components/FeedbackSection";
+import CareerSection from "./Components/CareerSection";
 
 function App() {
   return (
@@ -20,20 +22,21 @@ function App() {
       <CursorPointer />
       <div>
         <Router>
-          <SocialContact/>
+          <SocialContact />
           <Navbar />
           <Routes>
-            <Route exact path="/" element={<HomePage />}></Route>
+            <Route exact path="/home" element={<HomePage />}></Route>
             <Route exact path="/hero" element={<HeroSection />}></Route>
             <Route path="/service" element={<ServiceSection />}></Route>
             <Route path="/body" element={<BodySection />}></Route>
-            <Route path="/production" element={<ProductionSection />}></Route>
+            {/* <Route path="/production" element={<ProductionSection />}></Route> */}
             <Route path="/testimonial" element={<TestimonialSection />}></Route>
-            <Route path="/expert" element={<ExpertOpenionSection />}></Route>
+            {/* <Route path="/expert" element={<ExpertOpenionSection />}></Route> */}
             <Route path="/contact" element={<ContactForm />}></Route>
-            <Route path="/footer" element={<Footer />}></Route>
-
+            <Route path="/feedback" element={<FeedbackForm />}></Route>
+            <Route path="/career" element={<CareerSection />}></Route>
           </Routes>
+          <Footer />
         </Router>
       </div>
     </>

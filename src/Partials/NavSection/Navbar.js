@@ -16,9 +16,9 @@ const Navbar = () => {
               <div className="container">
                 {/* <div className="container-fluid"> */}
                 {/* here flude are use all area and only container make maintained sapce around */}
-                <a className="navbar-brand text-white" href="#">
+                <Link className="navbar-brand text-white" to="">
                   PLEWRM
-                </a>
+                </Link>
                 {/* <img src={LogoImage} alt='linking' className='img-flude' width="160px" autoPlay /> */}
 
                 <button
@@ -40,21 +40,21 @@ const Navbar = () => {
                     {/* <ul className="navbar-nav me-auto mb-2 mb-lg-0"> */}
                     {/* Home/Link are movie to start position */}
                     <li className="nav-item">
-                      <a
+                      <Link
                         className="nav-link active text-white text-capitalize"
                         aria-current="page"
-                        href="#"
+                        to="/home"
                       >
                         home
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a
+                      <Link
                         className="nav-link text-capitalize"
-                        href="#online-section"
+                        to="#online-section"
                       >
                         about us
-                      </a>
+                      </Link>
                       {/* <NavLink
                                         // className="nav-link"
                                         className="nav-link text-capitalize"
@@ -63,36 +63,27 @@ const Navbar = () => {
                                     </NavLink> */}
                     </li>
                     <li className="nav-item">
-                      <a
+                      <Link
                         className="nav-link text-capitalize"
-                        href="#about-services"
+                        to="#about-services"
                       >
                         properties{" "}
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a
-                        className="nav-link text-capitalize"
-                        href="#contact-us"
-                      >
-                        carrer
-                      </a>
+                      <Link className="nav-link text-capitalize" to="/career">
+                        career
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a
-                        className="nav-link text-capitalize"
-                        href="#contact-us"
-                      >
+                      <Link className="nav-link text-capitalize" to="/feedback">
                         feedback
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a
-                        className="nav-link text-capitalize"
-                        href="#contact-us"
-                      >
+                      <Link className="nav-link text-capitalize" to="/contact">
                         contact us
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
