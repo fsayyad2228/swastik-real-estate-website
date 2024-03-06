@@ -19,14 +19,14 @@ function HomePage() {
         <HeroSection />
         <BodySection />
         <ServiceSection />
-        <WeBeliveSection/>
+        <WeBeliveSection />
         {/* <ProductionSection /> */}
         <TestimonialSection />
         {/* <ExpertOpenionSection /> */}
-        <CareerSection />
-        <FeedbackForm />
-        <ContactForm />
-        <Footer />
+        {/* <CareerSection />
+        <FeedbackForm />*/}
+        {/* <ContactForm /> */}
+        {/* <Footer /> */}
       </div>
     </>
   );

@@ -8,6 +8,12 @@
   font-family: "Literata", serif;
 }
 
+.logo-img {
+  width: 150px;
+  height: auto;
+  margin-top: 10px;
+}
+
 :root {
   --bs-dark-color: #1a1d20;
   --bs-dark-primary: #1c1c1c;
@@ -189,13 +195,9 @@ a {
   /* left: 5rem; */
   width: 40rem;
   height: 15rem;
-  transform: translate(10px,
-      10px);
+  transform: translate(10px, 10px);
   /* Add some padding to adjust the position */
-  background-color: rgba(0,
-      0,
-      0,
-      0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   /* Optional: Add a background color to make the caption more readable */
   padding: 10px;
   /* Optional: Add padding */
@@ -217,8 +219,10 @@ a {
 .more-info-section {
   /* height: 80vh; */
   /* position: relative; */
-  background-image: linear-gradient(rgba(22, 22, 22, 0.9),
-      rgba(22, 22, 22, 0.9)),
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.9),
+      rgba(22, 22, 22, 0.9)
+    ),
     url("https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg?auto=compress&cs=tinysrgb&w=600");
   background-size: cover;
   background-position: center;
@@ -583,14 +587,6 @@ a {
 }
 
 @media screen and (max-width: 350px) {
-  .maharera-img {
-    margin-left: 45px;
-    margin-top: 15px;
-  }
-
-  .maharera-text {
-    margin-left: 10px;
-  }
 }
 
 @media screen and (max-width: 320px) {
