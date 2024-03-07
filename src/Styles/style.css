@@ -32,6 +32,7 @@ h3,
 h4 {
   font-family: "Lexend Deca", sans-serif;
   color: var(--bs-dark-color);
+  text-transform: capitalize;
 }
 
 h1 {
@@ -208,9 +209,7 @@ a {
 }
 
 /* banner second sectio  */
-.more-info-section {
-  /* height: 80vh; */
-  /* position: relative; */
+.we-more-info-section {
   background-image: linear-gradient(
       rgba(22, 22, 22, 0.9),
       rgba(22, 22, 22, 0.9)
@@ -224,8 +223,8 @@ a {
   overflow: hidden;
 }
 
-.more-information-section {
-  padding: 6rem 0;
+.re-more-information-section {
+  padding: 5rem 0 0.5rem;
   overflow: hidden;
 }
 
@@ -306,6 +305,67 @@ a {
   fill: #ffffff;
 }
 
+/* aboutus section */
+/* Style for the about info */
+.about-info {
+  padding: 20px;
+}
+
+.about-info h3 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.about-info p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Style for the carousel */
+.about-carousel {
+  margin-bottom: 20px;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for the container */
+.main-title {
+  text-align: center;
+}
+
+.main-title h1 {
+  font-size: 24px;
+  color: var(--bs-dark-primary);
+}
+
+/* Style for agent details */
+.agent-details {
+  text-align: center;
+}
+
+.agent-details h5 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: var(--bs-primary-color);
+}
+.agent-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: var(--bs-primary-color);
+}
+/* Style for the agent grid */
+.agent-2 {
+  background-color: var(--bs-dark-color);
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 /* Production /commpn section / Center Heading sections*/
 
 .services-section {
@@ -363,7 +423,7 @@ a {
 }
 
 .carousel-indicators {
-  bottom: -20%;
+  bottom: -10%;
 }
 
 /* We Belive Section Start */
@@ -565,7 +625,7 @@ a {
   }
 
   .hero-section {
-    height: 100vh;
+    height: 70vh;
   }
 
   .career-section {
@@ -588,10 +648,17 @@ a {
     padding: 25px 20px;
     position: absolute;
     top: 20%;
-    left: 2rem;
-    width: 20rem;
+    left: 1.3rem;
+    width: 18rem;
     height: 15rem;
-  }
+}
+.carosuel-image {
+  height: 62vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 }
 
 @media screen and (max-width: 600px) {

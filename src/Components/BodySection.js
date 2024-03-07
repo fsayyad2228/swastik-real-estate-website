@@ -7,7 +7,7 @@ const BodySection = () => {
         <>
             <div>
                 {/* Body Section */}
-                <section className="more-information-section">
+                <section className="re-more-information-section">
                     <div className="container">
                         <div className="row ">
                             <div className="col-12 col-md-12 col-lg-6 img-section">

@@ -1,5 +1,7 @@
 import React from "react";
 import aboutImage from "../../src/Assets/Images/about-us.png";
+import invsImg from "../../src/Assets/Images/Swastikprop.png";
+import "../../src/Styles/style.css";
 const AboutUs = () => {
   return (
     <>
@@ -13,21 +15,6 @@ const AboutUs = () => {
                   className="carousel slide"
                   data-ride="carousel"
                 >
-                  {/* <ol className="carousel-indicators">
-                    <li
-                      data-target="#carouselExampleIndicators3"
-                      data-slide-to="0"
-                      className="active"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators3"
-                      data-slide-to="1"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators3"
-                      data-slide-to="2"
-                    ></li>
-                  </ol> */}
                   <div className="carousel-inner">
                     <div className="carousel-item active">
                       <img
@@ -36,20 +23,6 @@ const AboutUs = () => {
                         className="img-fluid"
                       />
                     </div>
-                    {/* <div className="carousel-item">
-                      <img
-                        src={aboutImage}
-                        alt="property"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        src={aboutImage}
-                        alt="property"
-                        className="img-fluid"
-                      />
-                    </div> */}
                   </div>
                 </div>
               </div>
@@ -69,11 +42,7 @@ const AboutUs = () => {
                 <h3>
                   Investor
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <img
-                    src="img/Logo_Avenstra_Technical_Services.png"
-                    className="img-fluid"
-                    width="100"
-                  />
+                  <img src={invsImg} className="img-fluid" width="100" />
                 </h3>
               </div>
             </div>
@@ -84,7 +53,7 @@ const AboutUs = () => {
         <div className="container">
           <div className="main-title">
             <h1>Committee Board</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </div>
           <div className="row">
             <div className="col-xl-4 col-lg-3 col-md-6 col-sm-6">

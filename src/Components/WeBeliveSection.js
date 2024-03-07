@@ -6,12 +6,11 @@ const WeBeliveSection = () => {
         <div>
             <div>
                 {/* Body Section */}
-                <section className="bg-color more-info-section">
+                <section className="bg-color we-more-info-section">
                     <div className="container">
                         <div className="row ">
-
-                            <div className="col-12 col-md-12  text-lg-start col-lg-4 d-flex flex-column justify-content-center align-items-start">
-                                <h1 className="text-capitalize fw-bolder text-white  common-heading">We Belive In</h1>
+                        <div className="col-12 col-md-12 col-lg-4 text-center text-lg-start d-flex flex-column justify-content-center">
+                        <h1 className="text-capitalize mt-2 fw-bolder text-white common-heading">We Belive In</h1>
                                 <p className="mt-3 mb-5 para-width text-light-grey">Value for money and transparent deals and customer satisfaction. the power of generative AI and our expert talent network</p>
                                 <div className="w-100 text-md-start mb-3">
                                     <button type="button" className="btn btn-primary px-4 py-2"
