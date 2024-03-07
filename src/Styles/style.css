@@ -22,8 +22,8 @@
   --secondary-color: #29a9fd;
   --secondary-third-color: #38a4ecce;
   --bs-supportin-color: #c850c0;
-  --bs-logo-primary-color: #cd9d41;
-  --bs-logo-secondary-color: #a27841;
+  --bs-logo-primary-color:#CD9D41;
+  --bs-logo-secondary-color:#A27841;
 }
 
 h1,
@@ -266,12 +266,17 @@ a {
   position: relative;
 }
 
+
+
 .nav-link {
   color: var(--bs-logo-secondary-color) !important;
 }
 
 .nav-link:hover {
-  color: var(--bs-logo-primary-color);
+  color: var(--bs-logo-primary-color) 
+}
+.nav-link .active{
+color: var(--bs-main-color);
 }
 
 .text-light-grey {
@@ -305,67 +310,6 @@ a {
   fill: #ffffff;
 }
 
-/* aboutus section */
-/* Style for the about info */
-.about-info {
-  padding: 20px;
-}
-
-.about-info h3 {
-  font-size: 24px;
-  color: #333;
-  margin-top: 20px;
-  margin-bottom: 15px;
-}
-
-.about-info p {
-  font-size: 16px;
-  color: #666;
-  line-height: 1.6;
-}
-
-/* Style for the carousel */
-.about-carousel {
-  margin-bottom: 20px;
-}
-
-.carousel-item img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Style for the container */
-.main-title {
-  text-align: center;
-}
-
-.main-title h1 {
-  font-size: 24px;
-  color: var(--bs-dark-primary);
-}
-
-/* Style for agent details */
-.agent-details {
-  text-align: center;
-}
-
-.agent-details h5 {
-  margin: 10px 0;
-  font-size: 18px;
-  color: var(--bs-primary-color);
-}
-.agent-details p {
-  margin: 5px 0;
-  font-size: 14px;
-  color: var(--bs-primary-color);
-}
-/* Style for the agent grid */
-.agent-2 {
-  background-color: var(--bs-dark-color);
-  border: 1px solid #ddd;
-  padding: 20px;
-  margin-bottom: 20px;
-}
 /* Production /commpn section / Center Heading sections*/
 
 .services-section {
@@ -378,7 +322,7 @@ a {
 }
 
 /* properties section css start */
-.properties-section {
+.properties-section{
   padding: 0 0 7rem 0;
 }
 
@@ -392,6 +336,8 @@ a {
   /* padding: 6rem 0 3rem 0 !important; */
   padding: 0 0 2rem 0;
 }
+
+
 
 /* carousel Section  */
 
@@ -519,8 +465,8 @@ a {
   border-radius: 4px;
 }
 /* button section start */
-.btn-primary {
-  background: var(--bs-logo-primary-color);
+.btn-primary{
+  background:var(--bs-logo-primary-color);
   border: none;
 }
 .send-btn {
@@ -618,6 +564,7 @@ a {
 
   section .common-heading {
     font-size: 2rem;
+   
   }
 
   section .para-with {
