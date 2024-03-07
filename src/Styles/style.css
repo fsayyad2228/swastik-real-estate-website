@@ -32,6 +32,7 @@ h3,
 h4 {
   font-family: "Lexend Deca", sans-serif;
   color: var(--bs-dark-color);
+  text-transform: capitalize;
 }
 
 h1 {
@@ -208,9 +209,7 @@ a {
 }
 
 /* banner second sectio  */
-.more-info-section {
-  /* height: 80vh; */
-  /* position: relative; */
+.we-more-info-section {
   background-image: linear-gradient(
       rgba(22, 22, 22, 0.9),
       rgba(22, 22, 22, 0.9)
@@ -224,7 +223,7 @@ a {
   overflow: hidden;
 }
 
-.more-information-section {
+.re-more-information-section {
   padding: 6rem 0;
   overflow: hidden;
 }
@@ -367,7 +366,7 @@ a {
 }
 
 .carousel-indicators {
-  bottom: -20%;
+  bottom: -10%;
 }
 
 /* We Belive Section Start */
