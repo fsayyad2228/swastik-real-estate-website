@@ -306,6 +306,67 @@ a {
   fill: #ffffff;
 }
 
+/* aboutus section */
+/* Style for the about info */
+.about-info {
+  padding: 20px;
+}
+
+.about-info h3 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.about-info p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Style for the carousel */
+.about-carousel {
+  margin-bottom: 20px;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for the container */
+.main-title {
+  text-align: center;
+}
+
+.main-title h1 {
+  font-size: 24px;
+  color: var(--bs-dark-primary);
+}
+
+/* Style for agent details */
+.agent-details {
+  text-align: center;
+}
+
+.agent-details h5 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: var(--bs-primary-color);
+}
+.agent-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: var(--bs-primary-color);
+}
+/* Style for the agent grid */
+.agent-2 {
+  background-color: var(--bs-dark-color);
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 /* Production /commpn section / Center Heading sections*/
 
 .services-section {
