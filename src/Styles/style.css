@@ -224,7 +224,7 @@ a {
 }
 
 .re-more-information-section {
-  padding: 7rem 0;
+  padding: 5rem 0 0.5rem;
   overflow: hidden;
 }
 
@@ -569,7 +569,7 @@ a {
   }
 
   .hero-section {
-    height: 100vh;
+    height: 70vh;
   }
 
   .career-section {
@@ -592,10 +592,17 @@ a {
     padding: 25px 20px;
     position: absolute;
     top: 20%;
-    left: 2rem;
-    width: 20rem;
+    left: 1.3rem;
+    width: 18rem;
     height: 15rem;
-  }
+}
+.carosuel-image {
+  height: 62vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 }
 
 @media screen and (max-width: 600px) {
