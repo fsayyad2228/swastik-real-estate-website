@@ -14,7 +14,7 @@ const ServiceSection = () => {
                 <section className="services-section " id="about-services">
                     <div className="container text-center common-title fw-bold">
                         <h2 className="common-heading mt-5 py-3"> Right Place To Buy Dream Home</h2>
-                        <hr className="w-25 mx-auto" />
+                        <hr className="w-30 mx-auto text-black" />
                     </div>
                     <div className="container mt-5">
                         <div className="row g-5">
