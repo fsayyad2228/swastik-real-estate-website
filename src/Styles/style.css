@@ -702,6 +702,14 @@ color: var(--bs-main-color);
   }
 }
 
+/*start contact from  */
+.contact-form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* end contact from */
 @media screen and (max-width: 600px) {
   .maharera-img {
     margin-left: 5px;
@@ -716,7 +724,7 @@ color: var(--bs-main-color);
     flex-wrap: wrap;
     margin-left: -50px;
   }
-  .form-control {
+  .contact-form-control {
     width: 150%;
     font-size: 14px;
     padding: 8px;
@@ -728,13 +736,11 @@ color: var(--bs-main-color);
   /*end Style responsive for contact form inputs */
 }
 
-@media screen and (max-width: 350px) {
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .navbar-brand .company-logo {
     width: 200px;
     height: auto;
+    margin-left: -40px;
     /* margin-top: 10px; */
   }
 
@@ -779,7 +785,72 @@ color: var(--bs-main-color);
     margin-left: -90px;
   }
 
-  .form-control {
+  .contact-form-control {
+    width: 150%;
+    font-size: 14px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  .contactBtn {
+    display: flex;
+  }
+  .w-25 {
+    width: 45% !important;
+  }
+
+  /*end Style responsive for contact form inputs */
+}
+
+@media screen and (max-width: 320px) {
+  .navbar-brand .company-logo {
+    width: 200px;
+    height: auto;
+    margin-left: -40px;
+    /* margin-top: 10px; */
+  }
+
+  .img-section img {
+    width: 90%;
+  }
+
+  .footer-res {
+    display: flex;
+    justify-content: center;
+  }
+
+  .capcha-res {
+    width: 200px;
+    height: 50px;
+  }
+
+  /* start aboutus style for responsive */
+  .aboutus-img-fluid {
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .aboutus-info h3 {
+    margin-top: 20px;
+  }
+  .aboutus-main-title {
+    margin-top: 10px;
+  }
+  .invs-img-fluid {
+    margin-top: 20px;
+  }
+  .common-title {
+    margin-top: 20px;
+  }
+  /* end aboutus style for responsive */
+
+  /*start Style responsive for contact form inputs */
+  .contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -90px;
+  }
+
+  .contact-form-control {
     width: 150%;
     font-size: 14px;
     padding: 8px;
