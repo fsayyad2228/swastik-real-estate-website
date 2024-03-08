@@ -43,7 +43,7 @@ const Navbar = () => {
                     {/* Home/Link are movie to start position */}
                     <li className="nav-item">
                       <Link
-                        className="nav-link active text-white text-capitalize"
+                        className="nav-link  text-white text-capitalize"
                         aria-current="page"
                         to="/"
                       >
@@ -51,30 +51,33 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link text-capitalize" to="/aboutus">
+                      <Link className="nav-link  text-capitalize" to="/aboutus">
                         about us
                       </Link>
                     </li>
                     <li className="nav-item">
                       <Link
-                        className="nav-link text-capitalize"
+                        className="nav-link  text-capitalize"
                         to="/properties"
                       >
                         properties{" "}
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link text-capitalize" to="/career">
+                      <Link className="nav-link  text-capitalize" to="/career">
                         career
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link text-capitalize" to="/feedback">
+                      <Link
+                        className="nav-link  text-capitalize"
+                        to="/feedback"
+                      >
                         feedback
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link text-capitalize" to="/contact">
+                      <Link className="nav-link  text-capitalize" to="/contact">
                         contact us
                       </Link>
                     </li>
