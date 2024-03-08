@@ -1,8 +1,8 @@
 import styled from "styled-components";
-
+import footerImage from "../../Assets/Images/footer.jpg";
 export const FooterBox = styled.div`
   padding: 60px 60px;
-  background: black;
+  background-image: url(${footerImage});
   position: relative;
   bottom: 0;
   width: 100%;

@@ -28,7 +28,7 @@ const ServiceSection = () => {
             <hr className="w-30 mx-auto text-black" />
           </div>
           <div className="container mt-5">
-            <div className="row g-5">
+            <div className="row">
               <div className="col-xxl-4 col-lg-4 col-12 d-flex">
                 <div className="text-center card-box shadow rounded-2 p-5">
                   {/* <img src={socialIageT} alt='linking' className='img-flude' width="200px" autoPlay /> */}
