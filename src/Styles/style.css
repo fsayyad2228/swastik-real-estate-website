@@ -84,9 +84,14 @@ a {
 .row {
   display: flex;
   flex-wrap: wrap;
-  /* margin-right: -15px;
-  margin-left: -15px; */
 }
+
+/* .aboutpw-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+} */
 
 .maharera-img {
   margin-top: 10px;
@@ -278,6 +283,9 @@ a {
 .nav-link .active{
 color: var(--bs-main-color);
 }
+.nav-link .active {
+  color: var(--bs-main-color);
+}
 
 .text-light-grey {
   color: var(--bs-primary-color);
@@ -286,6 +294,77 @@ color: var(--bs-main-color);
   background-color: var(--bs-dark-color);
 }
 /* navigatin section end  */
+
+/* about start section */
+/* Style for the about info */
+.aboutus-info {
+  padding: 20px;
+}
+
+.aboutus-info h3 {
+  font-size: 24px;
+  color: var(--bs-logo-primary-color);
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.aboutus-info p {
+  font-size: 16px;
+  color: var(--bs-logo-secondary-color);
+  line-height: 1.6;
+}
+
+/* Style for the aboutus-carousel */
+.aboutus-carousel {
+  margin-bottom: 20px;
+}
+
+.aboutus-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.aboutus-img-fluid {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Style for the main title */
+.aboutus-main-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aboutus-main-title h1 {
+  font-size: 24px;
+  color: var(--bs-logo-primary-color);
+}
+
+/* Style for the agent details */
+.agent-details {
+  text-align: center;
+}
+
+.agent-details h5 a {
+  font-size: 18px;
+  color: var(--bs-logo-primary-color);
+  margin-bottom: 5px;
+}
+
+.agent-details p {
+  font-size: 14px;
+  color: var(--bs-logo-secondary-color);
+}
+
+/* Style for the agent grid */
+.agent-2 {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* about end section */
 
 /* waves screen spliting section  */
 .custom-shape-divider-bottom-1689170019 {
@@ -598,14 +677,14 @@ color: var(--bs-main-color);
     left: 1.3rem;
     width: 18rem;
     height: 15rem;
-}
-.carosuel-image {
-  height: 62vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+  }
+  .carosuel-image {
+    height: 62vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -622,6 +701,10 @@ color: var(--bs-main-color);
 }
 
 @media screen and (max-width: 320px) {
+  .img-section img {
+    width: 90%;
+  }
+
   .footer-res {
     display: flex;
     justify-content: center;
@@ -630,5 +713,20 @@ color: var(--bs-main-color);
   .capcha-res {
     width: 200px;
     height: 50px;
+  }
+
+  .aboutus-img-fluid {
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .aboutus-info h3 {
+    margin-top: 20px;
+  }
+  .aboutus-main-title {
+    margin-top: 10px;
+  }
+  .invs-img-fluid {
+    margin-top: 20px;
   }
 }

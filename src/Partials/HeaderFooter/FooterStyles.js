@@ -10,6 +10,10 @@ export const FooterBox = styled.div`
   @media (max-width: 1000px) {
     padding: 70px 70px;
   }
+  @media (max-width: 320px) {
+    display: flex;
+    justify-content: center;
+  }
 `;
 
 export const Container = styled.div`

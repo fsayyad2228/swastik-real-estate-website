@@ -20,7 +20,7 @@ const AboutUs = () => {
                       <img
                         src={aboutImage}
                         alt="property"
-                        className="img-fluid"
+                        className="aboutus-img-fluid"
                       />
                     </div>
                   </div>
@@ -28,7 +28,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="col-lg-7 col-md-12">
-              <div className="about-info">
+              <div className="aboutus-info">
                 <h3>About Our Company</h3>
                 <p>
                   Swastik Properties is a leading platform for customers to
@@ -42,7 +42,7 @@ const AboutUs = () => {
                 <h3>
                   Investor
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <img src={invsImg} className="img-fluid" width="100" />
+                  <img src={invsImg} className="invs-img-fluid" width="100" />
                 </h3>
               </div>
             </div>
@@ -51,34 +51,14 @@ const AboutUs = () => {
       </div>
       <div className="agent content-area-2">
         <div className="container">
-          <div className="main-title">
+          <div className="aboutus-main-title">
             <h1>Committee Board</h1>
             {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </div>
           <div className="row">
             <div className="col-xl-4 col-lg-3 col-md-6 col-sm-6">
-              <div className="agent-2">
-                {/* <div className="agent-photo">
-                  <img src=" " alt="agent-grid-2" className="img-fluid" />
-                  <ul className="social-list clearfix">
-                    <li>
-                      <a href="#" className="facebook-bg">
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="twitter-bg">
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="google-bg">
-                        <i className="fa fa-instagram"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div> */}
-                <div className="agent-details">
+              <div className="agent-2 card-box shadow rounded-2">
+                <div className="agent-details ">
                   <h5>
                     <a href="#">Navnath</a>
                   </h5>
@@ -87,15 +67,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="col-xl-4 col-lg-3 col-md-6 col-sm-6">
-              <div className="agent-2">
-                {/* <!-- <div className="agent-photo">
-                        <img src="assets/img/avatar/user.jpg" alt="agent-grid-2" className="img-fluid">
-                        <ul className="social-list clearfix">
-                            <li><a href="#" className="facebook-bg"><i className="fa fa-facebook"></i></a></li>
-                            <li><a href="#" className="twitter-bg"><i className="fa fa-twitter"></i></a></li>
-                            <li><a href="#" className="google-bg"><i className="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </div>--> */}
+              <div className="agent-2 card-box shadow rounded-2">
                 <div className="agent-details">
                   <h5>
                     <a href="#">Bhushan</a>
@@ -105,15 +77,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="col-xl-4 col-lg-3 col-md-6 col-sm-6">
-              <div className="agent-2">
-                {/* <!-- <div className="agent-photo">
-                        <img src="assets/img/avatar/user.jpg" alt="agent-grid-2" className="img-fluid">
-                        <ul className="social-list clearfix">
-                            <li><a href="#" className="facebook-bg"><i className="fa fa-facebook"></i></a></li>
-                            <li><a href="#" className="twitter-bg"><i className="fa fa-twitter"></i></a></li>
-                            <li><a href="#" className="google-bg"><i className="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </div>--> */}
+              <div className="agent-2 card-box shadow rounded-2">
                 <div className="agent-details">
                   <h5>
                     <a href="#">kalpesh </a>
