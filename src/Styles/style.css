@@ -14,6 +14,12 @@
   margin-top: 10px;
 }
 
+.navbar-brand .company-logo {
+  width: 250px;
+  height: auto;
+  /* margin-top: 10px; */
+}
+
 :root {
   --bs-dark-color: #1a1d20;
   --bs-dark-primary: #1c1c1c;
@@ -102,6 +108,11 @@ a {
   margin-left: 16px;
 }
 
+/* body section */
+
+.object-fit-contain {
+  margin-top: 25px;
+}
 /* heading section */
 .common-heading {
   font-size: 2.8rem;
@@ -303,14 +314,14 @@ color: var(--bs-main-color);
 
 .aboutus-info h3 {
   font-size: 24px;
-  color: var(--bs-logo-primary-color);
+  color: var(--bs-dark-primary);
   margin-top: 20px;
   margin-bottom: 15px;
 }
 
 .aboutus-info p {
   font-size: 16px;
-  color: var(--bs-logo-secondary-color);
+  color: var(--bs-dark-color);
   line-height: 1.6;
 }
 
@@ -337,7 +348,7 @@ color: var(--bs-main-color);
 
 .aboutus-main-title h1 {
   font-size: 24px;
-  color: var(--bs-logo-primary-color);
+  color: var(--bs-dark-primary);
 }
 
 /* Style for the agent details */
@@ -347,13 +358,13 @@ color: var(--bs-main-color);
 
 .agent-details h5 a {
   font-size: 18px;
-  color: var(--bs-logo-primary-color);
+  color: var(--bs-dark-color);
   margin-bottom: 5px;
 }
 
 .agent-details p {
   font-size: 14px;
-  color: var(--bs-logo-secondary-color);
+  color: var(--bs-dark-color);
 }
 
 /* Style for the agent grid */
@@ -464,6 +475,9 @@ color: var(--bs-main-color);
   color: #0056b3;
   font-size: 40px;
   width: 58px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .media-body {
@@ -700,9 +714,10 @@ color: var(--bs-main-color);
   .contact-section {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -50px;
   }
   .form-control {
-    width: auto;
+    width: 150%;
     font-size: 14px;
     padding: 8px;
     margin-bottom: 10px;
@@ -717,6 +732,12 @@ color: var(--bs-main-color);
 }
 
 @media screen and (max-width: 320px) {
+  .navbar-brand .company-logo {
+    width: 200px;
+    height: auto;
+    /* margin-top: 10px; */
+  }
+
   .img-section img {
     width: 90%;
   }
@@ -755,10 +776,11 @@ color: var(--bs-main-color);
   .contact-section {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -25px;
+    margin-left: -90px;
   }
+
   .form-control {
-    width: auto;
+    width: 150%;
     font-size: 14px;
     padding: 8px;
     margin-bottom: 10px;
@@ -766,5 +788,9 @@ color: var(--bs-main-color);
   .contactBtn {
     display: flex;
   }
+  .w-25 {
+    width: 45% !important;
+  }
+
   /*end Style responsive for contact form inputs */
 }
