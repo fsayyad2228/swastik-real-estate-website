@@ -2,6 +2,7 @@ import React from "react";
 import "../../Styles/style.css";
 import { Link, NavLink } from "react-router-dom";
 import Swastikprop from "../../Assets/Images/Swastikprop.png";
+import logoImage from "../../Assets/Images/logo.jpg";
 const Navbar = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const Navbar = () => {
                 {/* here flude are use all area and only container make maintained sapce around */}
                 <Link className="navbar-brand" to="">
                   <img
-                    src={Swastikprop}
+                    src={logoImage}
                     alt="linking"
                     className="company-logo"
                     autoPlay
