@@ -50,7 +50,7 @@ const ContactForm = () => {
                         name="Fname"
                         autoComplete="off"
                         required
-                        className="form-control"
+                        className="contact-form-control"
                         id="exampleInputFirstName"
                         aria-describedby="firstnamehelp"
                       />
@@ -68,7 +68,7 @@ const ContactForm = () => {
                         name="Lname"
                         autoComplete="off"
                         required
-                        className="form-control"
+                        className="contact-form-control"
                         id="exampleInputLastName"
                         aria-describedby="lastnamehelp"
                       />
@@ -88,7 +88,7 @@ const ContactForm = () => {
                     name="Email"
                     autoComplete="off"
                     required
-                    className="form-control"
+                    className="contact-form-control"
                     id="exampleFormControlInput1"
                   />
                 </div>
@@ -100,7 +100,7 @@ const ContactForm = () => {
                     Message
                   </label>
                   <textarea
-                    className="form-control"
+                    className="contact-form-control"
                     name="message"
                     autoComplete="off"
                     id="exampleFormControlTextarea1"
