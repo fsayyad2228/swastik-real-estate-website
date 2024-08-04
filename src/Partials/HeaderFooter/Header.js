@@ -11,7 +11,7 @@ const Header = () => {
                 {/* <div className="container-fluid"> */}
                 {/* here flude are use all area and only container make maintained sapce around */}
                 <a className="navbar-brand text-white" href="#">
-                  PLEWRM
+                  Swastik Properties
                 </a>
                 {/* <img src={LogoImage} alt='linking' className='img-flude' width="160px" autoPlay /> */}
 
